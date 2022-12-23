@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./settings.css" />
+    <title>Settings</title>
+</head>
+<body>
+    <h2 id="heading">
+        Settings Page
+    </h2>
+
+    <button id="go_home">
+        <a href="../index.html">
+            Go Home
+        </a>
+    </button>
+
+    <div id="container">
+
+        <h2>
+            Want to change your username?
+        </h2>
+        <button id="display_username">
+            Modify Username
+        </button>
+        <form id="username_form">
+            <label for="username">
+                Enter new username below:
+            </label>
+            <input type="text" id="username" name="username" required />
+            <button type="submit">
+                Change Username
+            </button>
+            <small>
+                *Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestiae sit maxime tempora qui aspernatur excepturi, nulla blanditiis repellendus necessitatibus neque commo
+            </small>
+        </form>
+        <div class="line"></div>
+
+
+        <h2>
+            Want to change your Email?
+        </h2>
+        <button id="display_email">
+            Modify Email
+        </button>
+        <form id="email_form">
+            <label for="email">
+                Enter new Email below:
+            </label>
+            <input type="email" id="email" name="email" required />
+            <button type="submit">
+                Change Email
+            </button>
+            <small>
+                *Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestiae sit maxime tempora qui aspernatur excepturi, nulla blanditiis repellendus necessitatibus neque commo
+            </small>
+        </form>
+        <div class="line"></div>
+
+
+        <h2>
+            Want to change your password?
+        </h2>
+        <button id="display_password">
+            Modify Password
+        </button>
+        <form id="password_form">
+
+            <label for="original_password">
+                Enter Original Password:
+            </label>
+            <input type="password" id="original_password" name="original_password" required />
+
+            <label for="new_password">
+                Enter new Password below:
+            </label>
+            <input type="password" id="new_password" name="new_password" required />
+
+            <label for="new_password_confirm">
+                Confirm New Password:
+            </label>
+            <input type="password" id="new_password_confirm" name="new_password_confirm" required />
+
+            <button type="submit">
+                Change Password
+            </button>
+            <small>
+                *Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestiae sit maxime tempora qui aspernatur excepturi, nulla blanditiis repellendus necessitatibus neque commo
+            </small>
+        </form>
+        <div class="line"></div>
+
+        <div id="delete_container">
+            <span>
+                <h2>
+                    Delete your account
+                </h2>
+                <p>
+                    Read carefully about whether you are willing to forgo all the accumalated and stored data that you have in this account.
+                </p>
+            </span>
+            <button id="delete_account">
+                Delete Account
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="./settings.js"></script>
+</body>
+</html>

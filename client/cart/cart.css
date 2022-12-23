@@ -1,0 +1,219 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+    width: auto;
+    background-color: gainsboro;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px 40px;
+}
+
+#heading {
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    margin: 15px auto;
+}
+
+#continue_shopping {
+    background-color: skyblue;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#continue_shopping a {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+#continue_shopping:hover {
+    background-color: gray;
+}
+
+.cart {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    justify-content: space-between;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.cart #nothing {
+    font-size: 30px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+
+.cart .cart_container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.cart_container .single_cart {
+    background-color: whitesmoke;
+    width: 95%;
+    height: 100px;
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.single_cart img {
+    width: auto;
+    height: 100%;
+}
+
+.single_cart h3 {
+    font-size: 20px;
+}
+
+.single_cart span {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.single_cart span h4 {
+    font-size:20px;
+    border: 1px solid black;
+    padding: 2px 8px;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+.single_cart span button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.single_cart .delete_cart {
+    font-size: 24px;
+}
+
+.single_cart .delete_cart:hover {
+    color: crimson;
+    cursor: pointer;
+}
+
+.single_cart span button:hover {
+    color: blue;
+}
+
+.single_cart .delete_cart {
+    color: black;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.single_cart .delete_cart:hover {
+    background-color: gray;
+}
+
+.cart  .cart_summary {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.cart_summary h2 {
+    font-size: 30px;
+    text-align: left;
+    margin: 8px 0px;
+    color: grey;
+}
+
+.cart_summary .cart_summary_cost {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cart_summary_cost span {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    color: gray;
+}
+
+.cart_summary .line {
+    width: 100%;
+    background-color: black;
+    height: 1px;
+    margin-top: 7px;
+    margin-bottom: 10px;;
+}
+
+.cart_summary .cart_summary_total {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart_summary_total p {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.cart_summary_total h3 {
+    font-size: 30px;
+    color: darkgreen;
+}
+
+.cart_summary #checkout {
+    text-align: center;
+    background-color: orange;
+    padding: 10px 20px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.cart_summary #checkout:hover {
+    background-color: gray;
+}
+
+.cart_summary #note {
+    color: gray;
+}
+
+
+
+
+
+
+
+
